@@ -1,0 +1,8 @@
+Very limited network and port scanner if nmap is not an option.
+
+Usage
+=====
+$ ./kscan.py
+
+add host as: 192.168.1.1-255 which is the same as 192.168.1.0/24
+add portslist as 80,443 (separated wid colon) or add * to select 1-65535
