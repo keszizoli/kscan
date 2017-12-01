@@ -56,7 +56,7 @@ def scanIP(remoteServerIP, remotePorts):
     print 'Scanning Completed in: ', total
 
 remoteServer       = raw_input("Enter a remote VLAN to scan (eg:192.168.1-255.1-255): ")
-remotePortsStr     = raw_input("Enter a remote VLAN to scan (eg:21,22,23,64,80,443,81,3000,3306,5432,8000,8080,8888) or (*): ")
+remotePortsStr     = raw_input("Specify the ports (default:21,22,23,64,80,443,81,3000,3306,5432,8000,8080,8888) or (*): ")
 
 if len(remotePortsStr) == 0:
     remotePortsStr = '21,22,23,64,80,443,81,3000,3306,5432,8000,8080,8888'
